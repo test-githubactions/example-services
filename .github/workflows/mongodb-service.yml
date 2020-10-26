@@ -15,4 +15,4 @@ jobs:
     - uses: 'actions/checkout@v1'
 
     - name: 'Test'
-      run: 'kubectl config get-contexts'
+      run: 'kubectl get pod --all-namespaces'
