@@ -14,5 +14,5 @@ jobs:
     steps:
     - uses: 'actions/checkout@v1'
 
-    - name: 'Test1'
+    - name: 'Test2'
       run: 'kubectl version'
